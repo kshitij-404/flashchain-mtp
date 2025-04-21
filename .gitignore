@@ -1,0 +1,32 @@
+# Rust
+target/
+Cargo.lock
+
+# Node
+node_modules/
+package-lock.json
+
+# Truffle
+build/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Logs
+logs/
+*.log
+
+# Coverage
+coverage/
+coverage.json
+
+# Rust test artifacts
+**/*.rs.bk
+
+# Contract artifacts
+artifacts/
+cache/

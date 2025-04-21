@@ -1,0 +1,28 @@
+{
+    "name": "flashchain",
+    "version": "1.0.0",
+    "description": "FlashChain: Lightning-inspired layer for IoT blockchain sharding",
+    "scripts": {
+      "compile": "truffle compile",
+      "test": "truffle test",
+      "migrate": "truffle migrate",
+      "lint": "solhint 'contracts/**/*.sol'",
+      "coverage": "truffle run coverage",
+      "prettier": "prettier --write 'contracts/**/*.sol'"
+    },
+    "dependencies": {
+      "@openzeppelin/contracts": "^4.9.0",
+      "@truffle/hdwallet-provider": "^2.1.0"
+    },
+    "devDependencies": {
+      "@openzeppelin/test-helpers": "^0.5.16",
+      "chai": "^4.3.7",
+      "eth-gas-reporter": "^0.2.25",
+      "prettier": "^2.8.8",
+      "prettier-plugin-solidity": "^1.1.3",
+      "solhint": "^3.4.1",
+      "solidity-coverage": "^0.8.2",
+      "truffle": "^5.9.0",
+      "truffle-plugin-verify": "^0.6.3"
+    }
+  }
