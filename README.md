@@ -105,5 +105,5 @@ Currently only supports Rocky Linux and MacOS
 
 2. **Launch the script**
     ```bash
-    ./modules/arch/dist/flashchain
+    ./modules/arch/dist/flashchain_linux
     ```
